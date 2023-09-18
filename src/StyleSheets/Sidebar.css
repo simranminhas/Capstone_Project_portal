@@ -1,0 +1,62 @@
+@import url("//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+@import url("//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css");
+@import url("//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css");
+
+body {
+	padding-top: 80px;
+}
+
+#sidebar {
+	position: fixed;
+	top: 0;
+	left: 220px;
+	width: 200px;
+	margin-left: -220px;
+	border: none;
+	border-radius: 0;
+	overflow-y: auto;
+	background-color: #172d46;
+	bottom: 0;
+	overflow-x: hidden;
+	padding-bottom: 40px;
+	border-right: 2px solid #000000;
+}
+
+.side-bar > li > a {
+	color: #eee;
+	width: 220px;
+}
+
+.side-bar li a:hover,
+.side-bar li a:focus {
+	background-color: #333;
+}
+
+.tmargin {
+	margin-top: 15px;
+}
+
+.mynavbar {
+	margin-left: 200px;
+	margin-bottom: 0;
+	background-color: #172d46 !important;
+	border-bottom: 2px solid black;
+}
+
+.heading-text {
+	color: white;
+	align-self: center;
+}
+
+.logoutbtn {
+	border: none;
+	color: white;
+	background-color: transparent;
+	height: 50px !important;
+	width: 100px !important;
+	margin-right: 0 !important;
+}
+
+.fontcolor {
+	color: white !important;
+}

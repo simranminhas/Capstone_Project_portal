@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+
+.body {
+	background: #eeeeee;
+	font-family: "Rubik", sans-serif;
+}
+
+.login-form {
+	background: #fff;
+	width: 400px;
+	margin: 100px auto;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	border-radius: 4px;
+	box-shadow: 10px 30px 70px rgba(0, 0, 0, 0.5);
+}
+
+.addmembers {
+	background: #fff;
+	width: 400px;
+	margin: 40px 700px;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	border-radius: 4px;
+	box-shadow: 10px 30px 70px rgba(0, 0, 0, 0.5);
+}
+
+.register-form {
+	background: #fff;
+	width: 400px;
+	margin: -30px auto;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	border-radius: 4px;
+	box-shadow: 10px 30px 70px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+	padding: 35px 35px 0 35px;
+	font-weight: 300;
+}
+
+.content {
+	padding: 35px;
+	text-align: center;
+}
+
+.input-field {
+	padding: 12px 5px;
+}
+input,
+select {
+	font-size: 16px;
+	display: block;
+	font-family: "Poppins", sans-serif;
+	width: 100%;
+	padding: 10px 1px;
+	border: 0;
+	border-bottom: 1px solid #747474;
+	outline: none;
+	transition: all 0.2s;
+}
+
+a.link {
+	text-decoration: none;
+	color: #747474;
+	letter-spacing: 0.2px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.action {
+	display: flex;
+	flex-direction: row;
+}
+
+button {
+	width: 100%;
+	border: none;
+	padding: 18px;
+	font-family: "Rubik", sans-serif;
+	cursor: pointer;
+	text-transform: uppercase;
+	background: #e8e9ec;
+	color: #777;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 0;
+	letter-spacing: 0.2px;
+	outline: 0;
+	transition: all 0.3s;
+}
+
+.colorHilightBtn {
+	color: #eeeeee;
+	background-color: #172d46;
+}
+
+hr {
+	margin: 10px auto;
+
+	width: 85%;
+}
+
+.requestbtn button {
+	/* background-color: red; */
+	margin-top: 20px;
+	width: 150px;
+}
+
+.reqbtnsection {
+	/* background-color: red; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.reqbtnsection select {
+	width: 800px;
+}
